@@ -1,0 +1,55 @@
+/* Body text */
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 22px;
+  line-height: 1.5;
+
+  background-color:  hsl(98, 85%, 54%);
+  color: rgb(0, 0, 0);
+  background-image: linear-gradient(hsl(10, 48%, 58%),hsl(98, 85%, 54%));
+  /*To make sure the color reaches the bottom of the page*/
+  min-height: 100vh;
+}
+
+/* Call-to-action container */
+.cta {
+  max-width: 50ch;
+  background-color: hsl(75, 64%, 65%);
+
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: auto;
+  margin-top: 5rem;
+
+
+}
+
+/* Call to Action "button" */
+.cta a, .cta a:visited {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  
+  padding: 0.5rem 1rem;
+  width: max-content;
+  border-radius: 10%;
+  margin:auto;
+  display: block;
+
+  background-color: hsl(51, 68%, 50%);
+  color: hsl(205, 40%, 10%);
+
+}
+
+/* Hover state */
+.cta a:hover {
+  background-color: hsl(129, 61%, 37%);
+  color: hsl(67, 100%, 48%);
+
+}
+
+/* Click state */
+.cta a:active {
+  background-color: hsl(0, 0%, 3%);
+  color: hsl(130, 41%, 38%);
+
+}
