@@ -6,7 +6,7 @@ body {
 
   background-color:  hsl(98, 85%, 54%);
   color: rgb(0, 0, 0);
-  background-image: linear-gradient(hsl(10, 48%, 58%),hsl(98, 85%, 54%));
+  background-image: linear-gradient(hsl(95, 40%, 42%),hsl(98, 85%, 54%));
   /*To make sure the color reaches the bottom of the page*/
   min-height: 100vh;
 }
@@ -19,6 +19,7 @@ body {
   padding: 2rem;
   border-radius: 1rem;
   margin: auto;
+  /*So that the box doesn't touch the top*/
   margin-top: 5rem;
 
 
