@@ -6,7 +6,7 @@ body {
 
   background-color:  hsl(98, 85%, 54%);
   color: rgb(0, 0, 0);
-  background-image: linear-gradient(hsl(95, 40%, 42%),hsl(98, 85%, 54%));
+  background-image: linear-gradient(hsl(180, 6%, 49%),hsl(120, 2%, 22%));
   /*To make sure the color reaches the bottom of the page*/
   min-height: 100vh;
 }
@@ -14,8 +14,9 @@ body {
 /* Call-to-action container */
 .cta {
   max-width: 50ch;
-  background-color: hsl(75, 64%, 65%);
-
+  background-color: hsl(0, 0%, 3%);
+  color: white;
+  
   padding: 2rem;
   border-radius: 1rem;
   margin: auto;
@@ -36,21 +37,21 @@ body {
   margin:auto;
   display: block;
 
-  background-color: hsl(51, 68%, 50%);
+  background-color: hsl(0, 85%, 51%);
   color: hsl(205, 40%, 10%);
 
 }
 
 /* Hover state */
 .cta a:hover {
-  background-color: hsl(129, 61%, 37%);
-  color: hsl(67, 100%, 48%);
+  background-color: hsl(0, 100%, 73%);
+  color: hsl(70, 6%, 81%);
 
 }
 
 /* Click state */
 .cta a:active {
-  background-color: hsl(0, 0%, 3%);
-  color: hsl(130, 41%, 38%);
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 95%, 47%);
 
 }
