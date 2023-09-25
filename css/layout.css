@@ -1,0 +1,72 @@
+body{
+  background-color:  hsl(0, 0%, 96%);
+  color: rgb(0, 0, 0);
+  background-image: linear-gradient(hsl(180, 6%, 49%),hsl(120, 2%, 22%));
+  /*To make sure the color reaches the bottom of the page*/
+  min-height: 100vh;
+}
+/* Call-to-action container */
+.cta {
+  max-width: 50ch;
+  background-color: hsl(0, 0%, 3%);
+  color: white;
+  
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: auto;
+  /*So that the box doesn't touch the top*/
+  margin-top: 5rem;
+}
+
+/* Call to Action "button" */
+.cta a, .cta a:visited {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  
+  padding: 0.5rem 1rem;
+  width: max-content;
+  border-radius: 10%;
+  margin:auto;
+  display: block;
+
+  background-color: hsl(0, 85%, 51%);
+  color: hsl(205, 40%, 10%);
+
+}
+
+.attention {
+  text-align: center;
+
+  padding: 2ch;
+  border-style: solid;
+  
+  visibility: visible;
+  border-radius: 60px;
+  
+  margin: auto;
+  margin-top: 10ch;
+  margin-left: 11ch;
+  
+  color: aliceblue;
+  background-color: black;
+
+  max-width: fit-content;
+  
+}
+
+
+@media (width > 600px) {
+  body {
+    background-image: linear-gradient(hsl(100, 10%, 80%), hsl(235, 62%, 53%) );
+    min-width: 30ch;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+  }
+  .attention {
+    visibility: hidden;
+  }
+  
+
+}
